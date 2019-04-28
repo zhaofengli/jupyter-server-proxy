@@ -23,7 +23,7 @@ function addLauncherEntries(serverData: any, launcher: ILauncher, app: JupyterLa
       });
       let command : ILauncher.IItemOptions = {
         command: commandId,
-        category: 'Notebook'
+        category: 'Other'
       };
       if (server_process.launcher_entry.icon_url) {
         command.kernelIconUrl =  server_process.launcher_entry.icon_url;
